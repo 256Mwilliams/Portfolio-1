@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,6 +6,10 @@
 
 nav {
     margin: 7px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
 }
 
 nav ul {
@@ -27,6 +31,7 @@ nav ul li a {
 header {
     color: silver;
     border-bottom: 3px solid;
+    border-color: green;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 25%;
@@ -49,6 +54,7 @@ section h3 {
     margin: 30px auto 5px auto;
     font-size: 30px;
     width: 80%;
+    color: red;
 }
 
 
@@ -62,7 +68,7 @@ section h3 {
 }
 
 #Apps h3 {
-    color: silver;
+    color: gold;
     border-bottom: 3px solid;
     text-align: center;
     width: 10%;
@@ -72,8 +78,9 @@ section h3 {
 
 #Apps ul {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    color: pink;
 }
 
 #Apps ul li {
@@ -89,6 +96,19 @@ section h3 {
     justify-content: center;
 }
 
+
 .application-center {
     text-align: center;
+    
+}
+
+
+.app-list {
+font-size: 40px;
+font-style: italic;
+color:silver;
+}
+
+footer p {
+    color: blue;
 }
