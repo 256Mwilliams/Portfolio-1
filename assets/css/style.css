@@ -1,5 +1,38 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+nav {
+    margin: 7px 0;
+}
+
+nav ul {
+    display: flex;
+    background-color: forestgreen;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    height: 60px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    font-size: 1.55vw;
+    text-decoration: none;
+    color: silver;
+}
+
+header {
+    color: silver;
+    border-bottom: 3px solid;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 25%;
+    padding: 20px 35px;
+}
+
+header h1 {
+    font-size: 40px;
+}
