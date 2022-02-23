@@ -14,7 +14,7 @@ nav {
 
 nav ul {
     display: flex;
-    background-color: forestgreen;
+    background-color: black;
     justify-content: space-around;
     list-style: none;
     align-items: center;
@@ -29,9 +29,9 @@ nav ul li a {
 }
 
 header {
-    color: silver;
+    color: black;
     border-bottom: 3px solid;
-    border-color: green;
+    border-color: orange;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 25%;
@@ -54,7 +54,7 @@ section h3 {
     margin: 30px auto 5px auto;
     font-size: 30px;
     width: 80%;
-    color: red;
+    color: orange;
 }
 
 
@@ -68,8 +68,8 @@ section h3 {
 }
 
 #Apps h3 {
-    color: gold;
-    border-bottom: 3px solid;
+    color: orange;
+    border-bottom: 3px solid black;
     text-align: center;
     width: 10%;
     margin: 50px auto 10px auto;
@@ -80,7 +80,7 @@ section h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: pink;
+    color: orange;
 }
 
 #Apps ul li {
@@ -96,10 +96,21 @@ section h3 {
     justify-content: center;
 }
 
+.thumbnail {
+  display:block;
+  z-index:998;
+  cursor: pointer;
+  -webkit-transition-property:initial;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.6);
+}
 
 .application-center {
     text-align: center;
-    
 }
 
 
@@ -109,6 +120,45 @@ font-style: italic;
 color:silver;
 }
 
-footer p {
-    color: blue;
+footer {
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    background: black;
 }
+
+footer h2 {
+    color: silver;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer p {
+    color: orange;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.contact-info a {
+    text-decoration: none;
+    padding: 10px;
+    color: orange;
+    display: flex;
+    font-size: 1.55vw;
+}
+
